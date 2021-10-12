@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> DoDomu </title>
+	<style>
+
+	@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
+
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
+	a {
+		color: white;
+		text-decoration: none;
+	}
+
+	header {
+		color: white;
+
+	}
+
+	body {
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	.back {
+		position: fixed;
+		width: 100%;
+		height: 570px;
+		z-index: -20;
+		background-image: url(images/background.png);
+		background-repeat: no-repeat;
+	}
+
+
+	.container {
+		height: 120px;
+		background-color: #EF5C28;
+	}
+
+	.logo {
+		width: 109px;
+		height: 99px;
+		margin-left: 20px;
+		margin-top: 10px;
+		background-image: url(images/logo.png);
+		float: left;
+	}
+
+	.title {
+		padding-top: 30px;
+		padding-left: 150px;
+		font-size: 36px;
+		font-family: 'Jost', sans-serif;
+	}
+
+	.subtitle {
+		padding-left: 150px;
+		font-size: 18px;
+		font-family: 'Montserrat', sans-serif;
+
+	}
+
+	.heart {
+		width: 110px;
+		height: 94px;
+		background-image: url(images/heart.png);
+		margin-top: -80px;
+		margin-left: 90%;
+	}
+
+	.mainButton {
+		width: 50%;
+		height: 25px;
+		background-color: #535353;
+		text-align: center;
+		padding-top: 5px;
+		border: 5px solid #535353;
+		border-radius: 0px 0px 20px 20px;
+		float: left;
+	}
+
+	.donateButton {
+		width: 50%;
+		height: 25px;
+		background-color: #FD0001;
+		text-align: center;
+		padding-top: 5px;
+		border: 5px solid #FD0001;
+		border-radius: 0px 0px 20px 20px;
+	}
+
+	.buttons {
+		color: white;
+		display: flex;
+	}
+
+	.postLine {
+		margin-top: 40px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		
+	}
+
+	.postImage {
+		width: 450px;
+		height: 185px;
+	//	background-image: url(images/cat.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.postText {
+		padding-left: 15px;
+		padding-top: 15px;
+		width: 435px;
+		height: 110px;
+		background-color: #EAEAEA;
+		border: 0px solid #EAEAEA;
+		border-radius: 0px 0px 20px 20px;
+	}
+
+
+
+
+	footer {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		width: 100%;
+		height: 80px;
+		background-color: #535353;
+		margin-top: 100px;
+		color: white;
+	}
+
+	.contacts {
+		
+	}
+
+	.copyright {
+		
+	}
+
+	.social {
+
+	}
+
+	#background-title {
+		width: 450px;
+		height: 185px;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	#social-icon {
+		width: 25px;
+		height: 25px;
+		vertical-align: middle;
+
+	}
+
+
+	
+	</style>
+</head>
+<body>
+
+	<div class="back"> </div>
+	<header>
+		<div class="container">
+			<div class="logo"> </div>
+			<p class="title"> Благодiйна органiзацiя “ДоДому” </p>
+			<p class="subtitle"> Коти та собаки хочуть Додому ✨ </p>
+			<div class="heart"> </div>
+		</div>
+	</header>
+	<div class="buttons">
+		<a href="#" class="mainButton"> Головна </a>
+		
+		<a href="donate.html" class="donateButton"> Пожертвувати </a>
+	</div>
+
+	<main>
+
+		<div class="postLine">
+			<div class="post">
+				<div class="postImage"> <img src="images/cat.png" id="background-title"> </div>
+				<div class="postText">
+					<b> Альбус добрий, ласкавий, дуже контактний котик. Справжнісенької модельної зовнішності. </b> 
+					<br> Возраст: до 3 лет Здоровье: здоров, обработан от паразитов, привит, чипирован и кастрирован
+				</div>
+			</div>
+			<div class="post">
+				<div class="postImage"> <img src="images/cat2.png" id="background-title"> </div>
+				<div class="postText">
+					<b> Стильна зачіска, милі чорні плямочки на білому хутрі та витончений хвостик — у Баффі є всі данні, аби стати зіркою вашого інстаграму!</b> 
+					<br> Вік: 5 місяців
+				</div>
+			</div>
+			<div class="post">
+				<div class="postImage"> <img src="images/cat3.png" id="background-title"> </div>
+				<div class="postText">
+					<b> КОТЯЧИЙ БОЙЗ БЕНД ШУКАЄ ДІМ. </b> 
+					<br> Бойз бенд це:
+					<br> ⁃ Три прекрасних хлопчика віком 2,5 місяці.
+					<br> ⁃ Мають перше щеплення, паспорт, а 25 липня будуть ревакциновані.
+				</div>
+			</div>
+		</div>
+
+		<div class="postLine">
+			<div class="post">
+				<div class="postImage"> <img src="images/dog.png" id="background-title"> </div>
+				<div class="postText">
+					<b> Мініатюрна дівчинка на ім‘я Луна </b> 
+					<br> Вік: 2 місяці
+					<br> Здоров'я: здорова, оброблена від паразитів
+					<br> Розмір: виросте невеличкою
+				</div>
+			</div>
+			<div class="post">
+				<div class="postImage"> <img src="images/dog2.png" id="background-title"> </div>
+				<div class="postText">
+					<b> Крихітка Міра шукає свою сім'ю </b> 
+					<br> Дівчинці 3 місяці, здорова, вакцинована, вже можна гуляти з нею на улиці. Має паспорт:)
+				</div>
+			</div>
+			<div class="post">
+				<div class="postImage"> <img src="images/cat4.png" id="background-title"> </div>
+				<div class="postText">
+					<b> Три хлопці та їхня матуся неземної краси шукають домівки </b> 
+					<br> Малюкам вже по 1,5 місяці, ходять на лоток, їдять самі. м. Київ та область
+				</div>
+			</div>
+		</div>
+
+		
+		
+	</main>
+	
+
+
+	<footer>
+		<p class="contacts"> Контакти: dodomu.ua@gmail.com </p>
+		<p class="copyright"> Copyright © 2021 dodomy.ua All rights reserved. </p>
+		<p class="social"> Соціальні мережи: 
+			<a href="https://www.facebook.com/dodomy.ua"> <img src="images/facebook-icon.png" id="social-icon"> </a>
+			<a href="https://www.instagram.com/dodomy.ua/?utm_medium=copy_link"> <img src="images/instagram-icon.png" id="social-icon"> </a>
+		</p>
+	</footer>
+
+</body>
+</html>

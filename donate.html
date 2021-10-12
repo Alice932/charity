@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> DoDomu </title>
+	<style>
+	@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
+
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
+	a {
+		color: white;
+		text-decoration: none;
+	}
+
+	header {
+		color: white;
+
+	}
+
+	.container {
+		height: 120px;
+		background-color: #EF5C28;
+	}
+
+	.logo {
+		width: 109px;
+		height: 99px;
+		margin-left: 20px;
+		margin-top: 10px;
+		background-image: url(images/logo.png);
+		float: left;
+	}
+
+	.title {
+		padding-top: 30px;
+		padding-left: 150px;
+		font-size: 36px;
+		font-family: 'Jost', sans-serif;
+	}
+
+	.subtitle {
+		padding-left: 150px;
+		font-size: 18px;
+		font-family: 'Montserrat', sans-serif;
+
+	}
+
+	.heart {
+		width: 110px;
+		height: 94px;
+		background-image: url(images/heart.png);
+
+		margin-top: -80px;
+		margin-left: 90%;
+	}
+
+	.mainButton {
+		width: 50%;
+		height: 25px;
+		background-color: #535353;
+		text-align: center;
+		padding-top: 5px;
+		border: 5px solid #535353;
+		border-radius: 0px 0px 20px 20px;
+		float: left;
+	}
+
+	.donateButton {
+		width: 50%;
+		height: 25px;
+		background-color: #FD0001;
+		text-align: center;
+		padding-top: 5px;
+		border: 5px solid #FD0001;
+		border-radius: 0px 0px 20px 20px;
+	}
+
+	.buttons {
+		color: white;
+		display: flex;
+	}
+
+	body {
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	main {
+		margin-top: 30px;
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.back {
+		position: fixed;
+		width: 100%;
+		height: 570px;
+		z-index: -20;
+		background-image: url(images/background.png);
+		background-repeat: no-repeat;
+	}
+
+	.icon1 {
+		width: 351px;
+		height: 359px;
+		background-image: url(images/icon-1.png);
+	}
+
+	.icon2 {
+		width: 351px;
+		height: 359px;
+		background-image: url(images/icon-2.png);
+		margin-left: 250px;
+		margin-top: -120px;
+	}
+
+	.icon3 {
+		width: 351px;
+		height: 359px;
+		background-image: url(images/icon-3.png);
+		margin-top: -120px;
+	}
+
+	.donate {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		font-size: 24px;
+		color: white;
+		text-align: center;
+	}
+
+
+	.donate-text {
+		width: 560px;
+		height: 275px;
+		background-color: rgba(239, 92, 40, 0.9);
+		padding-top: 25px;
+	}
+
+	.donate-account {
+		height: 50px;
+		background-color: rgba(239, 92, 40, 0.9);
+	}
+
+	.privatBank-icon {
+		margin-left: -40px;
+		vertical-align: middle;
+	}
+
+	.donate-help {
+		height: 40px;
+		background-color: rgba(239, 92, 40, 0.9);
+		border: 2px solid rgba(255, 57, 57, 0.83);
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+		border-radius: 5px;
+		padding-top: 10px;
+		margin-bottom: 350px;
+
+	}
+
+	.donate-help > p {
+		
+	}
+
+	footer {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		width: 100%;
+		height: 80px;
+		background-color: #535353;
+		margin-top: 100px;
+		color: white;
+	}
+
+	.contacts {
+		
+	}
+
+	.copyright {
+		
+	}
+
+	.social {
+
+	}
+
+	#background-title {
+		width: 450px;
+		height: 185px;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	#social-icon {
+		width: 25px;
+		height: 25px;
+		vertical-align: middle;
+
+	}
+	</style>
+</head>
+<body>
+
+	<div class="back"> </div>
+	<header>
+		<div class="container">
+			<div class="logo"> </div>
+			<p class="title"> Благодiйна органiзацiя “ДоДому” </p>
+			<p class="subtitle"> Коти та собаки хочуть Додому ✨ </p>
+			<div class="heart"> </div>
+		</div>
+	</header>
+	<div class="buttons">
+		<a href="index.html" class="mainButton"> Головна </a>
+		
+		<a href="donate.html" class="donateButton"> Пожертвувати </a>
+	</div>
+
+	<main>
+		<div class="images">
+			<div class="icon1"> </div>
+			<div class="icon2"> </div>
+			<div class="icon3"> </div>
+		</div>
+
+		<div class="donate">
+			<div class="donate-text"> Навіть не маючи в запасі зайвих грошей, будь-який з нас може допомогти іншим, займаючись благодійною діяльністю. Сьогодні для благодійності відкриті всі двері. І це просто чудово, тому що, чим більше ми робимо добрих вчинків, тим краще стає цей світ. </div>
+			<div class="donate-account"> <img src="images/privatBank-icon.png" class="privatBank-icon"> 5169 3305 1858 3148 </div>
+			<div class="donate-help"> <p> Допомогти </p> </div>
+		</div>	
+	</main>
+
+	<footer>
+		<p class="contacts"> Контакти: dodomu.ua@gmail.com </p>
+		<p class="copyright"> Copyright © 2021 dodomy.ua All rights reserved. </p>
+		<p class="social"> Соціальні мережи: 
+			<a href="https://www.facebook.com/dodomy.ua"> <img src="images/facebook-icon.png" id="social-icon"> </a>
+			<a href="https://www.instagram.com/dodomy.ua/?utm_medium=copy_link"> <img src="images/instagram-icon.png" id="social-icon"> </a>
+		</p>
+	</footer>
+</body>
+</html>
